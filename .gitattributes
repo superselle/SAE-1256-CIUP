@@ -1,0 +1,13 @@
+# Empêcher la Javadoc (HTML) d'écraser tes stats Java
+Java/dev/src/doc/** linguist-documentation
+Java/dev/src/doc/** linguist-vendored
+
+# Ignorer les fichiers de configuration IDE
+*.classpath linguist-vendored
+*.project linguist-vendored
+.settings/** linguist-vendored
+
+# Forcer la détection du code Java source
+*.java linguist-detectable=true
+Java/dev/src/mvc/** linguist-detectable=true
+UML/test-java/** linguist-detectable=true
