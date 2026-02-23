@@ -1,0 +1,35 @@
+Auto-évaluation
+
+Dans ce projet, ma contribution a porté spécifiquement sur la gestion de la partie Service ainsi que sur la sérialisation des données. J’ai été responsable de plusieurs composants essentiels à la structure et au bon fonctionnement de l’application, répartis dans les différents packages selon l’architecture MVC.
+
+Contribution détaillée :
+
+    Service (packages modele.service, controleur.service, vue.service) :
+
+        Modèle (modele.service) :
+            Définition et initialisation des classes ModeleService, ModeleCafeteria, ModeleRestaurant.
+            Génération automatique et aléatoire de menus associés à chaque service (5 par service).
+
+        Contrôleur (controleur.service) :
+            Gestion des événements liés à l’affichage des services :
+                Clic droit pour afficher les informations d’un service.
+                Double clic pour afficher la liste des menus du service sélectionné.
+                Application de filtres selon le type de menu (végétarien, vegan, classique).
+
+        Vue (vue.service) :
+            Mise en place des interfaces pour :
+                Afficher dynamiquement les listes de cafétérias et restaurants.
+                Masquer ou afficher les sections selon les interactions utilisateur.
+                Visualiser les menus avec leurs informations détaillées.
+
+    Sérialisation (package serialisation) :
+        J’ai conçu et intégré le package serialisation, chargé de la sauvegarde et de la récupération des données dans des fichiers .ser.
+        Cela permet de conserver l’état de l’application (services, menus, etc.) entre deux exécutions.
+        Ce système est entièrement fonctionnel et intégré à la logique d’initialisation du programme.
+
+Tests et conformité :
+
+    Toutes les classes, méthodes et fonctionnalités ont été testées manuellement et intégrées progressivement.
+    Aucun conflit détecté avec le code des autres membres du groupe.
+    Aucune méthode inutile ni manquante. Le code est propre et bien organisé.
+    L’ensemble de mes classes est commenté, pour faciliter leur compréhension et leur maintenance.
